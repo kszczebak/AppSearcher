@@ -241,77 +241,7 @@ function SearchFQDN($server)
 
         {
 
-            if(Test-Connection -count 1 -computer "$server.swissre.com" -Quiet)
-
-            {
-
-                $server = "$server.swissre.com";
-
-                return $server;
-
-            }
-
-            if( Test-Connection -count 1 -computer "$server.itecorp.itegwpnet.com" -Quiet)
-
-            {
-
-                $server = "$server.itecorp.itegwpnet.com";
-
-                return $server;
-
-            }
-
-            if( Test-Connection -count 1 -computer "$server.testcorp.testgwpnet.com" -Quiet)
-
-            {
-
-                $server = "$server.testcorp.testgwpnet.com";
-
-                return $server;
-
-            }
-
-            if( Test-Connection -count 1 -computer "$server.corp.gwpnet.com" -Quiet)
-
-            {
-
-                $server = "$server.corp.gwpnet.com";
-
-                return $server;
-
-            }
-
-            if( Test-Connection -count 1 -computer "$server.exodus.swissre.com" -Quiet)
-
-            {
-
-                $server = "$server.exodus.swissre.com";
-
-                return $server;
-
-            }
-
-            if( Test-Connection -count 1 -computer "$server.devcorp.devgwpnet.com" -Quiet)
-
-            {
-
-                $server = "$server.devcorp.devgwpnet.com";
-
-                return $server;
-
-            }
-
-            if( Test-Connection -count 1 -computer "$server.gwpnet.com" -Quiet)
-
-            {
-
-                $server = "$server.gwpnet.com";
-
-                return $server;
-
-            }
-
-            
+            //domains
 
         }
 
